@@ -12,6 +12,40 @@ This project implements an Affine Cipher decoder for the English alphabet, which
   - `b` is the second user-defined key.
   - `m` is the size of the alphabet (27 in this case).
 
+## Installation
+
+### Installation Using [Visual Studio](https://visualstudio.microsoft.com/downloads/)
+
+1. **Clone the Repository**
+
+   Clone the repository to your local machine using the following command:
+
+   ```bash
+   git clone https://github.com/adamt-eng/affine-cipher-decoder
+   ```
+
+2. **Open the Project**
+
+   - Navigate to the directory where the repository was cloned.
+   - Open the `Affine Cipher Decoder.sln` solution file in Visual Studio.
+
+3. **Build the Project**
+
+   - Once the project is opened in Visual Studio, build the solution by selecting `Build > Build Solution` from the menu or pressing `Ctrl + Shift + B`.
+
+4. **Run the Program**
+
+   - After building the solution, you can run the program by pressing `F5` or selecting `Debug > Start Debugging`.
+
+### Alternative Compilation
+
+If you prefer not to use Visual Studio, you can directly compile the `Program.cpp` file using a standard C++ compiler of your choice.
+
+### Additional Notes
+
+- If there are any missing dependencies or libraries, Visual Studio will prompt you to install them automatically.
+- Ensure that your system has the necessary C++ development tools and libraries installed through Visual Studio's installer or your preferred development environment.
+
 ## Usage
 
 1. When you run the program, it will display the alphabet used for deciphering.
